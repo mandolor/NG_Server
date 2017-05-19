@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+NGServer.Build.CppClean.log
+NGServer.log
+unsuccessfulbuild
