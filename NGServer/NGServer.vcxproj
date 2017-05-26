@@ -72,16 +72,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>..\;C:\Users\alexp\Desktop\boost_1_64_0\stage\lib\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\alexp\Desktop\boost_1_64_0\</IncludePath>
+    <LibraryPath>C:\Users\alexp\Desktop\boost_1_64_0\stage\lib\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <IncludePath>S:\NG_Server\NGServer\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\alexp\Desktop\boost_1_64_0\</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>S:\NG_Server\NGServer\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\alexp\Desktop\boost_1_64_0\</IncludePath>
+    <LibraryPath>C:\Users\alexp\Desktop\boost_1_64_0\stage\lib\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\alexp\Desktop\boost_1_64_0\</IncludePath>
-    <LibraryPath>..\;C:\Users\alexp\Desktop\boost_1_64_0\stage\lib\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <IncludePath>S:\NG_Server\NGServer\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\alexp\Desktop\boost_1_64_0\</IncludePath>
+    <LibraryPath>C:\Users\alexp\Desktop\boost_1_64_0\stage\lib\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -107,6 +109,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>S:\NG_Security_Server\NGServer\include;C:\Users\alexp\Desktop\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
